@@ -59,33 +59,66 @@ header p{
     margin-top: -5%;
     color: #0a6308;
 }
+/*burger-menu*/
 .hamburger{
-    width: 60px;
+    width: 80px;
+    height: 80px;
     position: fixed;
-    background: #000;
+    background: rgb(3, 10, 43);
     float: right;
-    margin-right: 2%;
-    right: 0;
-    top: 5%;
+    top: 8%;
+    left: 95%;
     cursor: pointer;
-}
+    transform: translate(-50%, -50%);
+   }
 .hamburger span{
     display: block;
-    text-align: center;
-    margin: 8px 0 8px 10px;
-    width: 40px;
-    height: 3px;
-    background-color: white;
+    width: 60px;
+    height: 6px;
+    position: fixed;
+    top: 47%;
+    right: -25%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    transition: .5s;
+    box-shadow: 0 2px 2px rgba(0,0,0, .20);
 }
-.hamburger span:first-child{
-  margin-top: 15px;
+.hamburger span:nth-child(1){
+    transform: translate(-50%, -50%) translateY(-20px);
+    transition: .5s;
 }
-.hamburger span:last-child{
-   margin-bottom: 15px;
+.hamburger span:nth-child(4){
+    transform: translate(-50%, -50%) translateY(20px);
+    transition: .5s;
 }
+.hamburger.active span:nth-child(1){
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transition-delay: .2s;
+}
+.hamburger.active span:nth-child(4){
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition-delay: .2s;
+}
+.hamburger.active span:nth-child(2){
+    transform: translate(-50%, -50%) ;
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3){
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
 
 .hamLi{
     display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: darkkhaki;
+    height: 102%;
+    width: 100%;
+    margin-top: -6%;
+    text-align: center;
+    padding-top: 10%;
 }
 .heading{
     height: 80px;
@@ -309,6 +342,11 @@ li span{
     text-align: center;
     margin-top: 10vh;
 }
+
+
+
+
+
 
 
 
