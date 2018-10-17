@@ -70,6 +70,7 @@ header p{
     left: 95%;
     cursor: pointer;
     transform: translate(-50%, -50%);
+    z-index: 2;
    }
 .hamburger span{
     display: block;
@@ -77,6 +78,7 @@ header p{
     height: 6px;
     position: fixed;
     top: 47%;
+    right: -25%;
     right: -25%;
     transform: translate(-50%, -50%);
     background: #fff;
@@ -111,14 +113,20 @@ header p{
 
 .hamLi{
     display: none;
+    transition-delay: .2s;
+ }
+.open{
+    display: block;
     position: fixed;
     z-index: 1;
-    background-color: darkkhaki;
+    background-color: darkslategrey;
     height: 102%;
     width: 100%;
     margin-top: -6%;
     text-align: center;
     padding-top: 10%;
+    transition-delay: .2s;
+    opacity: .8;
 }
 .heading{
     height: 80px;
