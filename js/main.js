@@ -8,6 +8,14 @@ function myFunction() {
 togle.addEventListener("click", myFunction);
 
 
+//Up
+let btnUp = document.getElementById("Btn_up");
+btnUp.addEventListener("click", Up);
+
+function Up(){
+   window.scrollTo(0,0);
+}
+
 
 //$(document).ready(function(){
 //    $('.hamburger').click(function(){
