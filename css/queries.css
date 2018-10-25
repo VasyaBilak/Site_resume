@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1160px) {
+    #Btn_up{
+        left: 88%;
+    }
+} 
+
+@media only screen and (max-width: 1024px and min-width: 1000px) {
+    .text{
+        padding-top: 5%;
+    }
+    .description{
+        padding-top: 10%;
+    }
+    #Btn_up{
+        width: 120px;
+        height: 120px;
+        left: 85%;
+}
+    .hamburger{
+        top: 4%;
+        left: 90%;
+    }
+} 
+
+@media only screen and (max-width: 1000px) {
+    .hamburger{
+        left: 93%;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    .text{
+        padding-top: 10%;
+        font-size: 100px;
+    }
+    .description{
+        padding-top: 10%;
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .text{
+        font-size: 30px;
+        padding-bottom: 20%;
+    }
+    .description{
+        font-size: 30px;
+        padding: 10%;
+        
+    }
+    #Btn_up{
+        left: 85%;
+    }
+    .heading{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .description{
+        font-size: 17px;
+    }
+    .circle {
+        height: 70px;
+        width: 70px;
+    }
+    .hamburger{
+      left: 85%;  
+    }
+    .text{
+        padding: 15% 5% 5% 5%;
+    }
+    #Btn_up{
+        left: 75%;
+    }
+} 
+
+
+
