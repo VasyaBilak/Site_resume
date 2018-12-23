@@ -1,79 +1,97 @@
-@media only screen and (max-width: 1160px) {
-    #Btn_up{
-        left: 88%;
-    }
-} 
-
-@media only screen and (max-width: 1024px and min-width: 1000px) {
-    .text{
+/*queries*/
+@media only screen and (max-width: 1200px) {
+/*    1page*/
+    .text {
         padding-top: 5%;
     }
-    .description{
+    .description {
         padding-top: 10%;
     }
-    #Btn_up{
-        width: 120px;
-        height: 120px;
-        left: 85%;
-}
-    .hamburger{
+    .hamburger {
         top: 4%;
         left: 90%;
     }
+/*    2page*/
+    
 } 
 
-@media only screen and (max-width: 1000px) {
-    .hamburger{
+@media only screen and (max-width: 984px) {
+    /*    1page*/
+    .hamburger {
         left: 93%;
     }
-} 
-@media only screen and (max-width: 768px) {
-    .text{
-        padding-top: 10%;
-        font-size: 100px;
+/*    2page*/
+    main .content {
+        flex-direction: column;
     }
-    .description{
-        padding-top: 10%;
-        font-size: 100px;
-    }
+    .about_me {
+    max-width: 90%;
 }
+    
+} 
 
-@media only screen and (max-width: 750px) {
-    .text{
+@media only screen and (max-width: 800px) {
+    /*    1page*/
+    .text {
+        padding-top: 10%;
+        font-size: 30px;
+    }
+    .description {
+        padding-top: 10%;
+        font-size: 30px;
+    }
+    
+} 
+
+@media only screen and (max-width: 760px) {
+    /*    1page*/
+   .text {
         font-size: 30px;
         padding-bottom: 20%;
     }
-    .description{
+    .description {
         font-size: 30px;
         padding: 10%;
         
     }
-    #Btn_up{
-        left: 85%;
-    }
-    .heading{
+    .heading {
         margin: auto;
     }
-}
+} 
 
-@media only screen and (max-width: 415px) {
-    .description{
+@media only screen and (max-width: 480px) {
+    
+} 
+
+@media only screen and (max-width: 420px) {
+    /*    1page*/
+    .description {
         font-size: 17px;
     }
     .circle {
         height: 70px;
         width: 70px;
     }
-    .hamburger{
+    .hamburger {
       left: 85%;  
     }
-    .text{
+    .text {
         padding: 15% 5% 5% 5%;
     }
-    #Btn_up{
+    #Btn_up {
         left: 75%;
     }
+    
+    .hamLi li {
+        font-size: 30px;
+        width: 80%;
+        margin-top: 5%;
+    }
+     .hamLi li:first-child {
+        margin-top: 45%;
+    }
 } 
+
 
 
 

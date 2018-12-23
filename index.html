@@ -27,12 +27,13 @@
     </div>
        
 <!--           Up    -->
-    <button id="Btn_up">Up</button>
+    <button id="Btn_up" onclick="scrollToTop(50,3)" ><i class="fas fa-angle-up"></i></button>
             
+<!--            modal-->
     <ul class="hamLi" id="hamLi">
-        <li><a href="#">About me</a></li>
-        <li><a href="#">CV</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="#about" onclick="myFunction()">About me</a></li>
+        <li><a href="#CV" onclick="myFunction()">CV</a></li>
+        <li><a href="#contacts" onclick="myFunction()">Contacts</a></li>
         
     </ul>
     
@@ -48,7 +49,12 @@
  </header>
  
  <main>
- <div class="block_about">
+ <div id="about" class="block_about">
+    <div class="about">
+ 	    <h1>Про мене</h1> 
+ 	    <h4>Познайомимося ближче</h4>
+ 	    <div></div>
+ 	</div>
  	<div class="content">
  	    <div class="about_me">
  	        <h1>Декілька слів про мене</h1>
@@ -57,11 +63,6 @@
  	        </p>
  	    </div>
  	    <div class="middle_block">
- 	        <div class="about">
- 	    <h1>Про мене</h1> 
- 	    <h4>Познайомимося ближче</h4>
- 	    <div></div>
- 	</div>
         <div class="photo">
  	        <h1>Фото</h1>
  	        <img src="img/photo.jpg" alt="Photo">
@@ -90,7 +91,7 @@
  	    
  	</div>
  	</div>
- 	<div class="CV">
+ 	<div id="CV" class="CV">
  	     <div class="CV_info">
  	        <h1>Резюме</h1>
             <h4>Мої знання і освіта</h4>
@@ -148,14 +149,13 @@
     
  	</div>
  	
- 	<div class="contacts">
+ 	<div id="contacts" class="contacts">
  	     <div class="contacts_info">
  	        <h1>Контакти</h1>
             <h4>Зв'язатися зі мною</h4>
             <hr>
  	     </div>
  	     
-<!--
  	     <section class="data">
  	          <div class="map">
  	              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1353.2718104642433!2d25.16709492562474!3d48.38918035566726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736c86bef46d221%3A0x853ea1c82feef5e6!2z0KXQuNC80YfQuNC9LCDQhtCy0LDQvdC-LdCk0YDQsNC90LrRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc4NjMy!5e1!3m2!1suk!2sua!4v1539170768145" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -190,7 +190,6 @@
                 </div>
              </div>
  	     </section>
--->
  	    
  	</div>
  	
