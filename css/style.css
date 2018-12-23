@@ -109,7 +109,6 @@ header p {
     position: fixed;
     top: 47%;
     right: -25%;
-    right: -25%;
     transform: translate(-50%, -50%);
     background: #fff;
     transition: .5s;
@@ -178,13 +177,12 @@ header p {
     width: 300px;
     border: 2px solid green;
     color: #1e3a1a;
-    margin-left: 40%;
-    margin-top: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
     font-weight: bold;
+    margin: 10% auto 5%;
 }
 .description {
     text-align: center;
@@ -229,14 +227,10 @@ main .content {
     margin-left: 2%;
 }
 
-.photo {
-    margin-left: 2%;
-}
 .photo img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    
 }
 .content h1 {
     margin-bottom: 5%;
@@ -367,7 +361,7 @@ li span {
 }
 
 .adress {
-     margin-top: 2%;
+     margin: 2%;
      display: flex;
      justify-content: space-around;
 }
@@ -379,7 +373,7 @@ li span {
 }
 
 .adress_right {
-    margin-left: 90%;
+    margin-left: 75%;
 }
 .adress h4 {
     padding: 2% 0 2%;

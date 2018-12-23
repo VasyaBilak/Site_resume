@@ -8,11 +8,50 @@
         padding-top: 10%;
     }
     .hamburger {
-        top: 4%;
+        top: 8%;
         left: 90%;
     }
 /*    2page*/
+    .content h1 {
+        font-size: 25px;
+    }
+/*    3page    */
+    .add_info {
+        width: 80%;
+    }
+    .skill h1 {
+        font-size: 14px;
+    }
+    .CV_left h1 {
+        padding-bottom: 18px;
+    }
+    .width {
+        width: 45%;
+    }
+/*    4page*/
+    .contacts {
+        height: 150vh;
+    }
+    .data {
+        flex-direction: column;
+    }
+    .map {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .adress_right {
+        margin-left: 1%;
+    }
     
+/*    footer*/
+    .footer {
+        
+    }
+/*    up*/
+    #Btn_up {
+        margin-left: -5%;
+    }
+ 
 } 
 
 @media only screen and (max-width: 984px) {
@@ -25,8 +64,16 @@
         flex-direction: column;
     }
     .about_me {
-    max-width: 90%;
-}
+        max-width: 90%;
+        padding-bottom: 20px;
+    }
+    .content h1 {
+        text-align: center;
+    }
+    .middle_block {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
     
 } 
 
@@ -57,10 +104,38 @@
     .heading {
         margin: auto;
     }
+/*    4page    */
+    .contacts {
+        height: 120vh;
+    }
+    iframe {
+        width: 400px;
+        height: 280px;
+    }
+/*    hamburger*/
+    .hamburger {
+        left: 88%;
+    }
+    /*    up*/
+    #Btn_up {
+        margin-left: -12%;
+    }
+ 
 } 
 
 @media only screen and (max-width: 480px) {
-    
+    /*    4page    */
+    .contacts {
+        height: 100vh;
+    }
+    iframe {
+        width: 300px;
+        height: 220px;
+    }
+     /*    up*/
+    #Btn_up {
+        margin-left: -15%;
+    }
 } 
 
 @media only screen and (max-width: 420px) {
@@ -78,9 +153,6 @@
     .text {
         padding: 15% 5% 5% 5%;
     }
-    #Btn_up {
-        left: 75%;
-    }
     
     .hamLi li {
         font-size: 30px;
@@ -90,8 +162,68 @@
      .hamLi li:first-child {
         margin-top: 45%;
     }
+    /*    2page*/
+    .about_me h1 {
+        font-size: 25px;
+    }
+    main .content {
+        padding: 20px;
+        
+    }
+    .about_me {
+        padding-bottom: 20px;
+    }
+    .middle_block {
+        margin: 0 auto;
+    }
+    .personal_info h1 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+/*    up*/
+    #Btn_up {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        margin-left: -18%;
+    }
+    
+/*    hamburger*/
+    .hamburger {
+        width: 60px;
+        height: 60px;
+        top: 6%;
+    }
+    .hamburger span {
+        width: 45px;
+    }
 } 
 
+/*height*/
+@media only screen and (max-height: 820px) {
+/*    4page*/
+    .contacts {
+/*        height: 87vh;*/
+    }
+    .footer {
+        height: 10vh;
+    }
+    .footer p {
+        margin-top: 4vh;
+    }
+} 
+@media only screen and (max-height: 740px) {
+/*    4page*/
+    .contacts {
+/*        height: 110vh;*/
+    }
+} 
 
+@media only screen and (max-height: 580px) {
+/*    4page*/
+    .contacts {
+/*        height: 120vh;*/
+    }
+} 
 
 
