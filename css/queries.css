@@ -1,4 +1,5 @@
 /*queries*/
+
 @media only screen and (max-width: 1200px) {
 /*    1page*/
     .text {
@@ -199,31 +200,6 @@
     }
 } 
 
-/*height*/
-@media only screen and (max-height: 820px) {
-/*    4page*/
-    .contacts {
-/*        height: 87vh;*/
-    }
-    .footer {
-        height: 10vh;
-    }
-    .footer p {
-        margin-top: 4vh;
-    }
-} 
-@media only screen and (max-height: 740px) {
-/*    4page*/
-    .contacts {
-/*        height: 110vh;*/
-    }
-} 
 
-@media only screen and (max-height: 580px) {
-/*    4page*/
-    .contacts {
-/*        height: 120vh;*/
-    }
-} 
 
 

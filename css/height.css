@@ -1,0 +1,80 @@
+/*height*/
+@media only screen and (max-height: 1400px) {
+/*    1page*/
+    .circle {
+        margin-top: 80px;
+    }
+    .text {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    .heading {
+        height: 200px;
+        width: 500px;
+        font-size: 60px;
+    }
+    .description {
+        font-size: 60px;
+    }
+/*    4page*/
+    .contacts {
+        height: 1000px;
+    }
+    
+    .footer {
+        height: 10vh;
+    }
+    .footer p {
+        margin-top: 5vh;
+    }
+} 
+
+@media only screen and (max-height: 1024px) {
+/*    1page*/
+    .circle {
+        margin-top: 50px;
+    }
+    .text {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    .heading {
+        height: 150px;
+        width: 400px;
+        font-size: 50px;
+    }
+    .description {
+        font-size: 40px;
+    }
+/*    4page*/
+    .contacts {
+        height: 1000px;
+    }
+} 
+
+
+@media only screen and (max-height: 820px) {
+/*    4page*/
+    .contacts {
+        height: 87px;
+    }
+    .footer {
+        height: 10vh;
+    }
+    .footer p {
+        margin-top: 4vh;
+    }
+} 
+@media only screen and (max-height: 740px) {
+/*    4page*/
+    .contacts {
+/*        height: 110vh;*/
+    }
+} 
+
+@media only screen and (max-height: 580px) {
+/*    4page*/
+    .contacts {
+/*        height: 120vh;*/
+    }
+} 
