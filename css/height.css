@@ -75,6 +75,6 @@
 @media only screen and (max-height: 580px) {
 /*    4page*/
     .contacts {
-/*        height: 120vh;*/
+        height: 120vh;
     }
 } 
