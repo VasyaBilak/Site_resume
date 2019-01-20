@@ -248,7 +248,6 @@ main .content {
 	display: -ms-flex;
     display: flex;
     justify-content: space-between;
-/*    margin-left: 2%;*/
     padding: 50px;
     flex-wrap: wrap;
 }
@@ -260,6 +259,7 @@ main .content {
     margin-right: 2%;
     margin-left: 2%;
 }
+
 
 .photo img {
     height: 200px;
