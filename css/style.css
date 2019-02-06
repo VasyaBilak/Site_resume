@@ -38,7 +38,9 @@ img {
 
 /*header*/
 header {
+    background:   gray;
     background: url(../img/background1.jpg) no-repeat top /cover;
+    height: 800px;
     height: 100vh;
 }
 .content {
