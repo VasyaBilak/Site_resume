@@ -462,7 +462,8 @@ li span {
 .footer p {
     color: azure;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 
